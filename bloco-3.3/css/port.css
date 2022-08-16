@@ -88,3 +88,20 @@ p{
   line-height: 40px;
   margin-left: 30px;
 }
+#redes{
+  text-align: center;
+  /*border: solid green;*/
+  padding: 0px 0px 30px 0px;
+  display: flex;
+  /*width: 80%;*/
+  margin-left: 350px;
+}
+#github{
+  margin-left: 100px;
+}
+#linkedin{
+  margin-left: 100px;
+}
+#betrybe{
+  margin-left: 100px;
+}
