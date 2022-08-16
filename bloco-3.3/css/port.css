@@ -8,7 +8,8 @@ body {
 #boxPrincipal{
   border:;
   padding: 10px;
-  margin-left: 200px;
+  width: 90%;
+  margin: auto;
 }
 #bemVindo{
   background-color: rgb(36, 76, 102) ;
@@ -16,25 +17,25 @@ body {
   border-radius: 8px;
   padding: 3px;
   text-align: center;
-  font-size: 36px;
+  font-size: 26px;
   font-weight: bold;
   font-family: 'Roboto Mono', monospace;
+  width: 80%;
+  margin: auto;
 }
 #titulo {
-  max-width:800px;
+  max-width:640px;
   padding: 0px 0px 7px 0px;
-  margin-left: 1000px;
+  margin: auto;
 }
 #fotoBox{
     border:;
 }
 #foto{
     border-radius: 3%;
-    max-width: 500px;
+    max-width: 300px;
     padding: 12px;
     background-color: rgb(125, 178, 144);
-    margin-left: 15px;
-    margin-top: 30px;
    }
 #conteudo{
     border:;
@@ -57,14 +58,23 @@ ul{
     font-family: 'Ubuntu Condensed', sans-serif;
     color: rgb(22, 22, 22);
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bolder;
    }
    li{
-    font-size: 22px;
+    font-size: 17px;
+    line-height: 25px;
     font-weight: lighter;
+    padding: 2px;
     margin-left:18px;
    }
+   li:hover{
+    background-color: rgb(181, 199, 204);
+    border-radius: 3px;
+   }
+   /*li:active{
+    color: aqua;
+   }*/
    h2{
      color: rgb(36, 36, 36);   
      font-family: 'Ubuntu Condensed', sans-serif;
@@ -74,27 +84,29 @@ ul{
      margin-bottom: 10px;
    }
 #textoMeu{
-    border: ;
+    border:;
     background-color: rgb(36, 76, 102);
     border-radius: 9px;
-    max-width: 55%;
-    padding: 100px 0px 0px 0px;
-    margin-left: 50px;
+    max-width: 76%;
+    padding: 10px 0px 0px 0px;
+    margin:auto;
 }
 p{
   color: rgb(218, 218, 218);
   font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 27px;
-  line-height: 40px;
-  margin-left: 30px;
+  font-size: 18px;
+  line-height: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 #redes{
+  border:;
   text-align: center;
   /*border: solid green;*/
   padding: 0px 0px 30px 0px;
   display: flex;
   /*width: 80%;*/
-  margin-left: 350px;
+  margin-left: 240px;
 }
 #github{
   margin-left: 100px;
@@ -104,4 +116,8 @@ p{
 }
 #betrybe{
   margin-left: 100px;
+} 
+.links{
+  text-decoration: none;
+  color: rgb(236, 163, 95);
 }
