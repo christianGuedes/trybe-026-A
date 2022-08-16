@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(181, 199, 204);
+  }
+  
+  h1 {
+    color: rgb(36, 76, 102);
+    background-color: orange;
+    font-size: 65px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  p {
+    color: rgb(88, 123, 137);
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  li{
+    color: rgb(0, 139, 86);
+    text-decoration: none;
+    font-weight: bold;
+    font-style:inherit;
+  }
+  #introducao{
+    color: rgb(61, 61, 61);
+  }
+  #ninguem{
+    color:deeppink;
+    background-color: rgb(139, 161, 173);
+    font-family: fantasy;
+  }
+  #ninguem2{
+    text-decoration: none;
+    color: blue;
+  }
+  #teste{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+  #testando
+  {
+    color: aliceblue;
+    font-size: 15px;
+  }
+  #curso
+  {
+    font-weight: bold;
+  }
+  .testeFotoRedonda{
+    border-radius: 150%;
+  }
+  /*é bom de se utilizar % neste caso, pois caso haja algum tipo de evolução no site,
+  a proporção se mantem.*/ 
+  .botaoLink
+  {
+  background-color: blueviolet;
+  color: azure;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  padding: 7px 15px;
+  }
+  
