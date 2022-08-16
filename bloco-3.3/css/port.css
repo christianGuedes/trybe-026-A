@@ -1,6 +1,44 @@
 body {
     background-color: rgb(181, 199, 204);
   }
-#bemVindo{
+#boxPrincipal{
 
+}
+#bemVindo{
+  background-color: rgb(88, 123, 137) ;
+  color: rgb(36, 36, 36);
+  border-radius: 3px;
+  padding: 7px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+}
+#foto{
+ border-radius: 2%;
+ max-width: 300px;
+}
+#fotoBox{
+
+}
+ul{
+ font-family: 'Ubuntu Condensed', sans-serif;
+ color: rgb(22, 22, 22);
+ font-family: 'Ubuntu Condensed', sans-serif;
+ font-size: 23px;
+}
+li{
+ font-size: 18px;
+}
+h2{
+  color: rgb(36, 36, 36);   
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 28px;
+  font-weight: 300px;
+}
+p{
+  color: rgb(36, 36, 36);
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 14px;
+  line-height: ;
 }
