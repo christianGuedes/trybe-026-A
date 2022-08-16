@@ -1,44 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: rgb(181, 199, 204);
-  }
+}
 #boxPrincipal{
-
+  border: solid red;
+  padding: 10px;
 }
 #bemVindo{
   background-color: rgb(88, 123, 137) ;
   color: rgb(36, 36, 36);
-  border-radius: 3px;
-  padding: 7px;
+  border-radius: 8px;
+  padding: 3px;
   text-align: center;
   font-size: 36px;
   font-weight: bold;
   font-family: 'Roboto Mono', monospace;
 }
-#foto{
- border-radius: 2%;
- max-width: 300px;
+#titulo {
+  max-width:800px;
+  margin-left: 1000px;
 }
 #fotoBox{
-
+    border: solid rgb(255, 0, 170);
+}
+#foto{
+    border-radius: 2%;
+    max-width: 500px;
+    padding: 20px 6px;
+   }
+#conteudo{
+    border: solid green;
+    background-color: rgb(64, 125, 108);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+}
+#lista
+{
+    border: solid greenyellow;
+    max-width: 15%;
+    padding: 20px;
+    margin-left:10px;
 }
 ul{
- font-family: 'Ubuntu Condensed', sans-serif;
- color: rgb(22, 22, 22);
- font-family: 'Ubuntu Condensed', sans-serif;
- font-size: 23px;
-}
-li{
- font-size: 18px;
-}
-h2{
-  color: rgb(36, 36, 36);   
-  font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 28px;
-  font-weight: 300px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: rgb(22, 22, 22);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+   }
+   li{
+    font-size: 22px;
+    font-weight: lighter;
+   }
+   h2{
+     color: rgb(36, 36, 36);   
+     font-family: 'Ubuntu Condensed', sans-serif;
+     font-size: 28px;
+     font-weight: 300px;
+   }
+#textoMeu{
+    border: solid blue;
+    max-width: 60%;
+    padding: 300px 0px 0px 0px;
+    margin-left: 50px;
 }
 p{
   color: rgb(36, 36, 36);
   font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 14px;
-  line-height: ;
+  font-size: 27px;
+  line-height: 40px;
 }
