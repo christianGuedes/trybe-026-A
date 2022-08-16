@@ -3,14 +3,15 @@
     padding: 0;
 }
 body {
-    background-color: rgb(181, 199, 204);
+    background-color: rgb(64, 125, 108);
 }
 #boxPrincipal{
-  border: solid red;
+  border:;
   padding: 10px;
+  margin-left: 200px;
 }
 #bemVindo{
-  background-color: rgb(88, 123, 137) ;
+  background-color: rgb(36, 76, 102) ;
   color: rgb(36, 36, 36);
   border-radius: 8px;
   padding: 3px;
@@ -21,18 +22,22 @@ body {
 }
 #titulo {
   max-width:800px;
+  padding: 0px 0px 7px 0px;
   margin-left: 1000px;
 }
 #fotoBox{
-    border: solid rgb(255, 0, 170);
+    border:;
 }
 #foto{
-    border-radius: 2%;
+    border-radius: 3%;
     max-width: 500px;
-    padding: 20px 6px;
+    padding: 12px;
+    background-color: rgb(125, 178, 144);
+    margin-left: 15px;
+    margin-top: 30px;
    }
 #conteudo{
-    border: solid green;
+    border:;
     background-color: rgb(64, 125, 108);
     border-radius: 10px;
     padding: 5px;
@@ -40,10 +45,13 @@ body {
 }
 #lista
 {
-    border: solid greenyellow;
+    border: ;
     max-width: 15%;
     padding: 20px;
-    margin-left:10px;
+    margin-top: 25px;
+    margin-left:25px;
+    border-radius:4px;
+    background-color: rgb(88, 123, 137);
 }
 ul{
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -55,22 +63,28 @@ ul{
    li{
     font-size: 22px;
     font-weight: lighter;
+    margin-left:18px;
    }
    h2{
      color: rgb(36, 36, 36);   
      font-family: 'Ubuntu Condensed', sans-serif;
      font-size: 28px;
      font-weight: 300px;
+     margin-left: 50px;
+     margin-bottom: 10px;
    }
 #textoMeu{
-    border: solid blue;
-    max-width: 60%;
-    padding: 300px 0px 0px 0px;
+    border: ;
+    background-color: rgb(36, 76, 102);
+    border-radius: 9px;
+    max-width: 55%;
+    padding: 100px 0px 0px 0px;
     margin-left: 50px;
 }
 p{
-  color: rgb(36, 36, 36);
+  color: rgb(218, 218, 218);
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 27px;
   line-height: 40px;
+  margin-left: 30px;
 }
