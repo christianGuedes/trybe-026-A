@@ -28,8 +28,42 @@ body {
   padding: 0px 0px 7px 0px;
   margin: auto;
 }
+#conteudo{
+  border:;
+  background-color: rgb(64, 125, 108);
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+}
+#textoMeu{
+  border:;
+  background-color: rgb(36, 76, 102);
+  border-radius: 9px;
+  max-width: 76%;
+  padding: 10px 0px 0px 0px;
+  margin:auto;
+}
+h2{
+  color: rgb(36, 36, 36);   
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 28px;
+  font-weight: 300px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+p{
+color: rgb(218, 218, 218);
+font-family: 'Ubuntu Condensed', sans-serif;
+font-size: 18px;
+line-height: 35px;
+padding: 0px 20px 0px 20px;
+}
+.links{
+  text-decoration: none;
+  color: rgb(236, 163, 95);
+}
 #fotoBox{
-    border:;
+    /*border:;*/
 }
 #foto{
     border-radius: 3%;
@@ -37,15 +71,7 @@ body {
     padding: 12px;
     background-color: rgb(125, 178, 144);
    }
-#conteudo{
-    border:;
-    background-color: rgb(64, 125, 108);
-    border-radius: 10px;
-    padding: 5px;
-    display: flex;
-}
-#lista
-{
+#lista{
     border: ;
     max-width: 15%;
     padding: 20px;
@@ -60,6 +86,7 @@ ul{
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 25px;
     font-weight: bolder;
+    border-bottom: 3px solid rgb(36, 76, 102);
    }
    li{
     font-size: 17px;
@@ -72,33 +99,9 @@ ul{
     background-color: rgb(181, 199, 204);
     border-radius: 3px;
    }
-   /*li:active{
-    color: aqua;
-   }*/
-   h2{
-     color: rgb(36, 36, 36);   
-     font-family: 'Ubuntu Condensed', sans-serif;
-     font-size: 28px;
-     font-weight: 300px;
-     margin-left: 50px;
-     margin-bottom: 10px;
+   li:active{
+    color: rgb(185, 87, 41);
    }
-#textoMeu{
-    border:;
-    background-color: rgb(36, 76, 102);
-    border-radius: 9px;
-    max-width: 76%;
-    padding: 10px 0px 0px 0px;
-    margin:auto;
-}
-p{
-  color: rgb(218, 218, 218);
-  font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 18px;
-  line-height: 35px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
 #redes{
   border:;
   text-align: center;
@@ -111,13 +114,22 @@ p{
 #github{
   margin-left: 100px;
 }
+#github:hover{
+  background-color: rgb(49, 125, 148);
+  border-radius: 9px;
+}
 #linkedin{
   margin-left: 100px;
+}
+#linkedin:hover{
+  background-color: rgb(49, 125, 148);
+  border-radius: 9px;
 }
 #betrybe{
   margin-left: 100px;
 } 
-.links{
-  text-decoration: none;
-  color: rgb(236, 163, 95);
+#betrybe:hover{
+  background-color: rgb(49, 125, 148);
+  border-radius: 9px;
 }
+
