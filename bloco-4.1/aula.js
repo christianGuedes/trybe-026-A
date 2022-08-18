@@ -50,7 +50,7 @@ console.log(perimetro);
     console.log("fim dos momentos assincronos")
  }
 
-var notaPessoa = 59;
+let notaPessoa = 99;
 if (notaPessoa >=80){
     console.log("Parabéns, você passou!");
 }
@@ -61,13 +61,13 @@ else{
     console.log("Reprovado.");
 }
 
-var Teste = true;
+let Teste = true;
 
-var diaEnsolarado = "true"; //aqui irei aplicar um breve exemplo sobre
-var finalDeSemana = "true";
+let diaEnsolarado = "true"; //aqui irei aplicar um breve exemplo sobre
+let finalDeSemana = "true";
 
-var currentHour = 10;
-var message = [];
+let currentHour = 10;
+let message = [];
 
 if (currentHour >= 22){
     console.log(message="vai pra cama, nada de comida");
@@ -111,11 +111,11 @@ if (weekDay2 === "sabado" || weekDay2=== "domingo"){
 else{
     console.log(message3="mais um dia de aprendizado.");
 }
-
-
 // Nesse exemplo o "switch/case" deverá imprimir no terminal a classificação de quais filmes podem ser assistidos
 // de acordo com a faixa etária de uma pessoa.
 
+//o switch é similar ao if porem ele só serve para comparar valores de uma unica
+//variavel, enquanto o o if realiza diversas simultaneamente.
 mes = 'setembro';
 let estacaoDoAno = [];
 
@@ -142,3 +142,20 @@ switch (mes) {
 }
 
 console.log(estacaoDoAno); // 'Outono'
+
+let numer = 30;
+console.log(typeof numer);
+//
+
+//como saber se um numero é par
+let num1 = 5;
+let num2 = 5;
+let num3 = 2;
+
+let isEven = ((num1 + num2) % 2 ) == 0
+console.log(isEven)
+
+//com tres num
+isEven = ((num1 + num2 + num3 ) % 2) == 0
+console.log(isEven)
+
