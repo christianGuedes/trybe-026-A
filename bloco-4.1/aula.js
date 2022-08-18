@@ -50,7 +50,7 @@ console.log(perimetro);
     console.log("fim dos momentos assincronos")
  }
 
-var notaPessoa = 59;
+let notaPessoa = 99;
 if (notaPessoa >=80){
     console.log("Parabéns, você passou!");
 }
@@ -61,13 +61,13 @@ else{
     console.log("Reprovado.");
 }
 
-var Teste = true;
+let Teste = true;
 
-var diaEnsolarado = "true"; //aqui irei aplicar um breve exemplo sobre
-var finalDeSemana = "true";
+let diaEnsolarado = "true"; //aqui irei aplicar um breve exemplo sobre
+let finalDeSemana = "true";
 
-var currentHour = 10;
-var message = [];
+let currentHour = 10;
+let message = [];
 
 if (currentHour >= 22){
     console.log(message="vai pra cama, nada de comida");
@@ -111,11 +111,11 @@ if (weekDay2 === "sabado" || weekDay2=== "domingo"){
 else{
     console.log(message3="mais um dia de aprendizado.");
 }
-
-
 // Nesse exemplo o "switch/case" deverá imprimir no terminal a classificação de quais filmes podem ser assistidos
 // de acordo com a faixa etária de uma pessoa.
 
+//o switch é similar ao if porem ele só serve para comparar valores de uma unica
+//variavel, enquanto o o if realiza diversas simultaneamente.
 mes = 'setembro';
 let estacaoDoAno = [];
 
@@ -139,6 +139,156 @@ switch (mes) {
     case 'novembro':
     case 'dezembro':
         estacaoDoAno = 'Primavera';
+        //default - caso seja digitado um valor não listado, ele ira
+        //exibir o valor declarado ao default.
+        //estacaoDoAno = 'digite corretamente.'
 }
 
 console.log(estacaoDoAno); // 'Outono'
+
+let numer = 30;
+console.log(typeof numer);
+//
+
+//como saber se um numero é par
+let num1 = 5;
+let num2 = 5;
+let num3 = 2;
+
+let isEven = ((num1 + num2) % 2 ) == 0
+console.log(isEven)
+
+//com tres num
+isEven = ((num1 + num2 + num3 ) % 2) == 0
+console.log(isEven)
+
+let count = 20;
+let sum = 0;
+console.log(sum);
+for(let i = count; i <= count ; i++){
+    sum += i;
+}
+console.log(sum);
+
+//atividade do final de aula!
+let nume1 = 3, nume2 = 3;
+if (nume1 === nume2){
+    console.log(nume1+nume2);
+}
+else{
+    console.log(nume1*nume2);
+}
+//ativ 1
+let numb1 = 9;
+let numb2 = 9;
+let soma = numb1+numb2;
+console.log(soma);
+let subi = numb1-numb2;
+console.log(subi);
+let divi = numb1/numb2;
+console.log(divi);
+let multi = numb1*numb2;
+console.log(multi);
+let porc = numb1%numb2;
+console.log(porc);
+
+//ativ 2
+if (numb1>numb2){
+    console.log(numb1);
+}
+else
+{
+ console.log(numb2);
+}
+
+//ativ 3
+let numb3 = 8;
+if (numb1>numb2 && numb1>numb3){
+    console.log(numb1);
+}
+else if (numb2>numb1 && numb2>numb3){
+    console.log(numb2);
+}
+else{
+    console.log(numb3);
+}
+
+//ativ 4
+if (numb1 > 0){
+    console.log('positivo');
+}
+else if(numb1 < 0){
+    console.log('negativo');
+}
+else{
+    console.log('zero');
+}
+
+//ativ 5
+let tri1 = 60;
+let tri2 = 60;
+let tri3 = 60;
+let triangulo = tri1 + tri2 + tri3;
+if (triangulo === 180){
+    console.log('true')
+}
+else{
+    console.log('false');
+}
+
+//ativ 6
+//me ficou duvidas.
+
+//ativ 7
+let porc1 = 'a', porc2 = 'b', porc3 = 'c', porc4 = 'd', porc5 = 'e', porc6 = 'f';
+let notaP = 9;
+if(notaP >= 90 && notaP <=100){
+    console.log(porc1);
+}
+else if (notaP >= 80 && notaP <=89){
+    console.log(porc2);
+}
+else if (notaP >= 70 && notaP <=79){
+    console.log(porc3);
+}
+else if (notaP >= 60 && notaP <=69){
+    console.log(porc4);
+}
+else if (notaP >= 50 && notaP <=59){
+    console.log(porc5);
+}
+else if (notaP < 50 && notaP > 0){
+    console.log(porc6);
+}
+else{
+    console.log('erro')
+}
+
+//ativ 8
+let ativi1 = 4, ativi2 = 3, ativi3 = 3;
+if (ativi1 % 2 == 0){
+    console.log('false');
+}
+else if (ativi2 % 2 == 0) {
+    console.log('false');
+}
+else if (ativi3 % 2 == 0){
+    console.log('false');
+}
+else{
+    console.log('true');
+}
+
+//ativ 9
+if (ativi1 % 2 == 0){
+    console.log('par');
+}
+else if (ativi2 % 2 == 0) {
+    console.log('par');
+}
+else if (ativi3 % 2 == 0){
+    console.log('par');
+}
+else{
+    console.log('impar');
+}
