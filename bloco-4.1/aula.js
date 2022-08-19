@@ -292,3 +292,72 @@ else if (ativi3 % 2 == 0){
 else{
     console.log('impar');
 }
+
+//ativ 10
+let valVenda = 10, custo = 10, imposto = 0.2;
+const valCustoTot = valVenda * imposto;
+const lucro = valVenda - valCustoTot;
+if (custo < 0 ){
+    console.log('erro');
+}
+else if (valVenda < 0){
+    console.log('erro');
+}
+else if (imposto < 0){
+    console.log('erro');
+}
+else if (valCustoTot < 0){
+    console.log('erro');
+}
+else if (lucro < 0){
+    console.log('erro');
+}
+else{
+    console.log(lucro);
+}
+
+//ativ 11
+let aliquota = [];
+let salBrut = 3000, inss = salBrut * aliquota;
+let impRend = [];
+if (salBrut <= 1556.94){
+     aliquota = 0.08;
+      (inss <= 1903.98);
+       console.log(aliquota);
+}
+else if(salBrut >= 1556,95 && salBrut <= 2594.92) {
+     console.log(salBrut*0.09);
+}
+else if (salBrut >= 2594.93 && salBrut <= 5189.82) {
+     console.log(salBrut*0.11);
+}
+else {
+    console.log(salBrut-570.88);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
