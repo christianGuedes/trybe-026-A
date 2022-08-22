@@ -121,3 +121,31 @@ for (let tabu = 0; tabu <= 10; tabu++){
 //apos feito a primeira linha, podemos apenas imprimir o resultado ou até mesmo usar uma nova variavel e combinando-a com o resultado de nossa 
 //repetição.
 
+//ativ for/of
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+for (let nombre of names){
+  console.log(nombre);
+}
+
+let arrOfNumbers = [19, 31, 50];
+for (let sum of arrOfNumbers) {
+  sum += 1;
+  console.log(sum);
+}
+
+let jogoTeste = [1, 4, 5, 6, 7, 0];
+let numJogo = [3, 4, 5, 8, 9 , 0];
+let acertos = 0;
+
+for (let inic1 = 0; inic1 < jogoTeste.length; inic1+=1){
+     console.log('Seu jogo, 'jogoTeste[inic1]);
+     for (let inic2 = 0; inic2 < numJogo.length; inic2+=){
+     console.log('numero do jogo, ' numJogo[inic2]);
+     if (jogoTeste[inic1] === numJogo[inic2]){
+     acertos += 1;
+     console.log('acertou');
+     }
+    }
+  }
+  console.log('Total de acerto: ', acertos)
+    
