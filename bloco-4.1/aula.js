@@ -317,22 +317,45 @@ else{
 }
 
 //ativ 11
-let aliquota = [];
-let salBrut = 3000, inss = salBrut * aliquota;
+let salBrut = 3000;
 let impRend = [];
+let salRed = [];
+let salFinal = [];
 if (salBrut <= 1556.94){
-     aliquota = 0.08;
-      (inss <= 1903.98);
-       console.log(aliquota);
+       salRed = (salBrut*0.08);
+       console.log(salRed);
 }
 else if(salBrut >= 1556,95 && salBrut <= 2594.92) {
-     console.log(salBrut*0.09);
+     salRed = (salBrut*0.09);
+     console.log(salRed);
 }
 else if (salBrut >= 2594.93 && salBrut <= 5189.82) {
-     console.log(salBrut*0.11);
+     salRed = (salBrut*0.11);
+     console.log(salRed);
 }
 else {
-    console.log(salBrut-570.88);
+    salRed = (salBrut-570.88);
+    console.log('Seu salario liquido ficou em : R$',salRed);
+}
+if (salRed <= 1903.98){
+    salFinal = salBrut -salRed;
+    console.log('Seu salario liquido ficou em : R$',salFinal);  
+}
+else if(salRed >=1903.99 && salRed <=2826.65){
+    salFinal = (salRed*0.075) - 142.80;
+    console.log('Seu salario liquido ficou em : R$', salFinal);
+}
+else if (salRed >=2826.66 && salRed <=3751.05){
+    salFinal = (salRed*0.15) - 354.80;
+    console.log('Seu salario liquido ficou em : R$',salFinal);
+}
+else if(salRed >=3751.06 && salRed <=4664.68){
+    salFinal = (salRed*0.22) - 636.13;
+    console.log('Seu salario liquido ficou em : R$',salFinal);
+}
+else{
+    salFinal = (salRed*0.27) - 869.36;
+    console.log('Seu salario liquido ficou em : R$',salFinal);
 }
 
 
