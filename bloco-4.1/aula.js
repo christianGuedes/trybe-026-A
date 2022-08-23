@@ -357,8 +357,7 @@ else{
     salFinal = (salRed*0.27) - 869.36;
     console.log('Seu salario liquido ficou em : R$',salFinal);
 }
-
-
+//fim das atividade.
 
 
 
