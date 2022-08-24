@@ -20,10 +20,13 @@ let pessoa = {
         ano:1998,
     }
 };
-
+//aqui abaixo, estou fazendo uma adição de chave com valor no meu objeto 'pessoa'
+//pra isso basta eu colocar 'nomeDoObjeto' ['Chave'] = 'valor';
 pessoa['nomeCompleto'] = pessoa.nome + ' ' + pessoa.sobreNome;
+pessoa['trybe'] = true;
 //console.table(pessoa);
 //console.log('O ' + pessoa.nomeCompleto + ' nasceu no dia: ' + '' + pessoa.nasceu.dia +' no mês de' +' '+ pessoa.nasceu.mes + ' do ano' + ' ' + pessoa.nasceu.ano + ' e ele gosta de ' + '' + pessoa.gostaDe[0] + ' e sua atividade favorita é ' + pessoa.gostaDe[1]+ ' Isabele');
+//uma maneira de acessar a chave de um objeto é atraves do '.'
 
 let cars = ['Saab', 'Volvo', 'BMW'];
 
