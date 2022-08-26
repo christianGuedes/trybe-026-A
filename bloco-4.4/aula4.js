@@ -60,3 +60,27 @@ function lessThan (numb1, numb2){
 } 
 console.log(lessThan(40,30));
 
+let names = {
+    person1: 'João',
+    person2: 'Maria',
+    person3: 'Jorge',
+  };
+for (let msg in names)  {
+    console.log('olá ' +names[msg])
+}
+
+let car = {
+    model: 'A3 Sedan',
+    manufacturer: 'Audi',
+    year: 2020
+  };
+  for(let key in car){
+    console.log('o seu carro é de modelo: ' + car.model + ' da marca: ' +car.manufacturer + 'e do ano de: ' + car.year)
+    console.log(car[key])
+  }
+
+  function bomDiaTryber(nome) {
+    console.log('Bom dia, ' + nome);
+  }
+
+  bomDiaTryber('joao', 'pedro', 'luis')
