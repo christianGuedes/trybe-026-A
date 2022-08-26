@@ -149,3 +149,4 @@ for (let inic1 = 0; inic1 < jogoTeste.length; inic1+=1){
   }
   console.log('Total de acerto: ', acertos)
     
+
