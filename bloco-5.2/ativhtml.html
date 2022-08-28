@@ -33,13 +33,29 @@
   <body>
     <header> 
       <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+      <ul id="lista">
+        <li class="Lista">1</li>
+        <li class="Lista">2</li>
+        <li class="Lista">3</li>
+        <li class="Lista">4</li>
+      </ul>
     </header>    
-    <main class="main-content">
+    <main class="pai">
       <section class="center-content">
         <p id="texto">Texto padrão do nosso site</p>
         <p>-----</p>
         <p>Trybe</p>
         <div id ="teste"></div>
+      </section>
+      <section id="pai">
+        <section id="primeiroFilho"></section>
+        <section id="elementoOndeVoceEsta">
+          <section id="primeiroFilhoDoFilho"></section>
+          <section id="segundoEUltimoFilhoDoFilho"></section>
+        </section>
+        Atenção!
+        <section id="terceiroFilho"></section>
+        <section id="quartoEUltimoFilho"></section>
       </section>
     </main>
     <script>
