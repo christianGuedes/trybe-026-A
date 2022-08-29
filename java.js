@@ -1,8 +1,4 @@
-    window.onload = "Pagina carregada.";
-    function pagCarregada(){
-        alert("Bem-vindo ao meu perfil!");
-    }
-    
+   
     let aprendizados = [
         "Um pouco de JavaScrip",
         "Git",
