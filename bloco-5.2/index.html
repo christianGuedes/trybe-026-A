@@ -5,7 +5,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Mono&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
       <meta charset="UTF-8">
-      <title>PROJETO BLOCO 3</title>
+      <title>TESTS DO JAVA</title>
    </head>
    <body>
       <header id="cabecalho">
@@ -17,33 +17,25 @@
                <h1 id="header">O que eu aprendi:</h1>
             </header>
             <article class="artigo lado-esquerdo">
-               <span class="learn"> Na nossa primeira semanas tivemos abordagem sobre o sistema linux e seu terminal o que foi algo muito legal, pois até então eu apenas utilizava windows.Em seguida tive contato com as plataformas git e github que apesar do nome serem parecidos, não são a mesma coisa.E por fim fui introduzido uma segunda vez sobre HTML e CSS.</span>
+               <span id="teste"></span>
+               <span class="learn"></span>
             </article>
             <span class="learn">Por fim uma lista com o resumo de que eu aprendi:</span>
-            <button id ="botao" onclick="informações"><a href="https://www.betrybe.com/" target="_blank" alt="Site Trybe" title="Trybe">TRYBE</a></button>
             <ol id="licoes_aprendidas"></ol>
             <header>
                <h1 id="quero">O que eu quero aprender:</h1>
             </header>
-            <ul id="licoes_a_aprender">
-               <li>Criação de sites com aplicação de JS;</li>
-               <li>Manuseio do JS;</li>
-               <li>Banco de dados;</li>
-               <li>Gerir melhor o tempo;</li>
-               <li>Como liderar;</li>
-               <li>Comunicação;</li>
-               <li>Aprofundar em html e css;</li>
-               <li>Inglês;</li>
-               <li>React;</li>
-               <li>Python.</li>
-            </ul>
+            <ul id="licoes_a_aprender"></ul>
          </section>
          <aside class="sobreMim lado-direito">
             <section id="textoMeu">
                <h1 id="sobre">Sobre Mim</h1>
                <img src="/bloco-5.2/christian.jpeg" id="minha_foto" alt="Eu" title="Cara bonito" width="300px">
             </section>
-            <span id="meuTexto">Bom me chamo Christian Guedes e estou no curso de desevolvimento web pela<a href="https://www.betrybe.com/" target="_blank" alt="Site Trybe" title="Trybe"> Trybe </a>,sou da turma 26 tribo A.</span>
+            <span id="meuTexto">
+               <button id="meuBotao" onclick="mostrarSobreMim()">Quem sou?</button>
+            </span>
+            
          </aside>
       </main>
       <footer id="rodape">
@@ -60,6 +52,7 @@
             </tbody>
          </table>
       </footer>
-      <script src="/java.js"></script>
+      <script src="/java.js">
+      </script>
    </body>
 </html>
