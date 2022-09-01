@@ -266,7 +266,7 @@ function menorNumero (array){
     array.sort((a,b) => a-b);
     console.log(array[0])
 }
-menorNumero([2, 1, 6, -5, 10, 11]);
+menorNumero([2, 1, 6, -1, 10, 11]);
 
 
 
@@ -305,6 +305,17 @@ console.log(Numb)
 somandoAteN(5)
 
 
-function finalFrase(){
-
+function finalFrase(stringWord, stringEnding){
+        let finalDaFrase = stringWord.substring(stringWord.length -2) 
+        if(stringEnding == finalDaFrase){
+           finalDaFrase = true
+        } else false
+        console.log(finalDaFrase);
 }
+finalFrase("trybe", "be")
+
+
+/* if frase - menorfrase = substring
+se substring === menorfrase
+return true
+else false */
