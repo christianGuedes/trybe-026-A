@@ -55,6 +55,7 @@ for(let ii = 0; ii < queroAprender.length; ii++){
     textoExperiencia.appendChild(textExp);
     textExp.style.marginLeft = "10px"; 
 
+//<-----------------------------------SOBRE MIM
 function mostrarSobreMim (){
     document.getElementById("meuTexto").innerHTML = "<p>Bom me chamo Christian Guedes e estou no curso de desevolvimento web pela Trybe,sou da turma 26 tribo A.</p>";
 }
