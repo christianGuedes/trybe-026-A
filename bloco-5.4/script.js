@@ -1,40 +1,15 @@
-const button = document.getElementById('add-button');
-const input = document.getElementById('phrases-input');
-const list = document.getElementById('phrases-list');
+//<--------------------------------------------------AULA 5.1
+document.getElementsByTagName('p')[2].innerText = "testando";
+//<--- atividade 1
+document.getElementById("teste").innerText = "Isso é algo que me preocupa mas se tudo der certo, me vejo formado na trybe.";
+//<--- atividade 2
+document.getElementById('main-content').style.background = "green";
+//<--- atividade 3
+document.getElementsByClassName('center-content')[0].style.background = "white";
+//<--- atividade 4
+document.getElementsByClassName('title')[0].innerText = "Exercício 5.1 - JavaScript";
+//<--- atividade 5
+//var testando = document.getElementsByTagName('p')[2].innerText.toUpperCase();
+//<--- atividade 6
+console.log(document.getElementsByTagName('P'));
 
-function insertPhraseInDOM() {
-  const phrasesList = JSON.parse(localStorage.getItem('phrases'));
-  const listLength = phrasesList.length - 1;
-  const phraseText = phrasesList[listLength];
-  const phrase = document.createElement('li');
-  phrase.innerText = phraseText;
-  list.appendChild(phrase);
-}
-
-function addPhraseToLocalStorage() {
-  const oldList = JSON.parse(localStorage.getItem('phrases'));
-  const phraseText = input.value;
-  oldList.push(phraseText);
-  localStorage.setItem('phrases', JSON.stringify(oldList));
-  insertPhraseInDOM();
-}
-
-function initialRenderization() {
-  if (localStorage.getItem('phrases') === null) {
-    localStorage.setItem('phrases', JSON.stringify([]));
-  } else {
-    const phrasesList = JSON.parse(localStorage.getItem('phrases'));
-    const listLength = phrasesList.length - 1;
-    for (let index = 0; index <= listLength; index += 1) {
-      const listElement = document.createElement('li');
-      listElement.innerText = phrasesList[index];
-      list.appendChild(listElement);
-    }
-  }
-}
-
-button.addEventListener('click', addPhraseToLocalStorage);
-
-window.onload = function() {
-  initialRenderization();
-};
