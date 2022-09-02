@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(253, 251, 251);
+}
+#cabecalho{
+    /* border: solid rgb(240, 13, 172); */
+    top: 0;
+    position: fixed;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    border-radius: 9px;
+    background-color: rgb(55, 59, 97);
+    color: rgb(206, 206, 206);
+    font-family: 'Source Code Pro', monospace;
+}
+  #titulo{
+    text-align: center;
+    margin: auto;
+  }
+#corpo{
+   /* border: solid rgb(240, 13, 172); */
+    background-color: rgb(55, 59, 97);
+    display: flex;
+}
+#aprendizado{
+   /* border: solid rgb(240, 13, 172); */
+    background-color: rgb(206, 206, 206);
+    border-radius: 8px;
+    max-width: 60%;
+}
+#header{
+   /* border: solid rgb(240, 13, 172); */
+    padding: 20px 0px 10px 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+}
+.learn{
+    max-width: 90%;
+    padding: 15px 10px 15px 10px;
+    font-size: 16px;
+    line-height: 18px;
+}
+h1{
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+    margin-top: 40px;
+}
+#textoMeu{
+   /* border: solid rgb(240, 13, 172); */
+    background-color: rgb(55, 59, 97);
+    border-radius: 8px;
+    float: right;
+ }
+#minha_foto{
+    width: 260px;
+   /* border: solid rgb(240, 13, 172); */
+    margin-right: 150px;
+ }
+
+a{
+    text-decoration: none;
+    color: rgb(32, 202, 60);
+}
+#meuTexto{
+   /* border: solid rgb(240, 13, 172); */
+    max-width: 70%;
+    padding: 5px 0px 15px 25px;
+    color: rgb(234, 236, 235);
+    margin-left: 60px;
+    margin-top: 5px;
+    display: inline-block;
+}
+span{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    max-width: 60%;
+
+}
+ul{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    margin-left: 25px;
+}
+li:hover{
+    color: rgb(255, 0, 255);
+}
+li{
+    margin-left: 45px;
+    margin-bottom: 8px;
+}
+ol{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    margin-left: 25px;
+}
+#quero{
+   /* border: solid rgb(240, 13, 172); */
+    padding: 10px 0px 10px 30px;
+}
+#sobre
+{
+   /* border: solid rgb(240, 13, 172); */
+    color: bisque;
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+.lado-direito
+{
+    float: right;
+}
+.lado-esquerdo{
+    
+    float: left;
+}
+#titRoda{
+   /* border: solid rgb(240, 13, 172); */
+    text-align: center;
+}
+#rodape{
+    margin-top: -40px;
+   /* border: solid rgb(240, 13, 172); */
+    background-color: rgb(114, 118, 153);;
+}
+table{
+    margin-left:auto;
+    margin-right: auto;
+}
+#meuBotao{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 7px;
+    font-family: 'Source Code Pro', monospace;  
+}
+#meuBotao:hover{
+    color: rgb(255, 0, 255);
+}
