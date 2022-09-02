@@ -16,7 +16,7 @@ console.log(document.getElementById('elementoOndeVoceEsta').nextElementSibling)
 //Agora acesse o terceiroFilho a partir de pai.
 console.log(document.getElementById('pai').children[3])
 //Crie um irmão para elementoOndeVoceEsta.
-
+document.createElement()
 //Crie um filho para elementoOndeVoceEsta.
 
 //Crie um filho para primeiroFilhoDoFilho.
@@ -24,8 +24,5 @@ console.log(document.getElementById('pai').children[3])
 //A partir desse filho criado, acesse terceiroFilho.
 
 
-let texto = "estou testando o appendchild";
+document.getElementById("teste").innerText = 'TESTANDO O INNER';
 
-
-let tamanho = document.getElementById("teste");
-//console.log(tamanho.length);

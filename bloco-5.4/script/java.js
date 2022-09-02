@@ -42,8 +42,8 @@ let queroAprender = [
 ];
 
 let queroAprendList = document.querySelector("#licoes_a_aprender");
-for(let ii = 0; ii < queroAprender.length; ii++){
-    let listaAprender = queroAprender[ii];
+for(let i = 0; i < queroAprender.length; i++){
+    let listaAprender = queroAprender[i];
     let queroAprendLista = document.createElement('li');
     queroAprendLista.innerText = listaAprender;
     queroAprendList.appendChild(queroAprendLista);
