@@ -16,13 +16,21 @@ console.log(document.getElementById('elementoOndeVoceEsta').nextElementSibling)
 //Agora acesse o terceiroFilho a partir de pai.
 console.log(document.getElementById('pai').children[3])
 //Crie um irmão para elementoOndeVoceEsta.
-document.createElement()
+const paiDoElemento = document.getElementById('pai');
+const irmaoDoElemento = document.createElement('div');
+irmaoDoElemento.id = 'irmaoDoElemento';
+irmaoDoElemento.innerText = "irmão";
+paiDoElemento.appendChild(irmaoDoElemento);
 //Crie um filho para elementoOndeVoceEsta.
-
+const elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+const filhoDoElemento = document.createElement('p')
+filhoDoElemento.id = "filho";
+elementoOndeVoceEsta.appendChild(filhoDoElemento);
 //Crie um filho para primeiroFilhoDoFilho.
-
+const filhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
+const filhoDoFilhoDoFilho = document.createElement('div');
+filhoDoFilhoDoFilho.id = 'filhoDefinitivo';
+filhoDoFilho.appendChild(filhoDoFilhoDoFilho);
 //A partir desse filho criado, acesse terceiroFilho.
-
-
-document.getElementById("teste").innerText = 'TESTANDO O INNER';
+console.log(document.getElementById('filhoDefinitivo').nextElementSibling);
 
