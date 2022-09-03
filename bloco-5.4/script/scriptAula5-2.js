@@ -32,5 +32,5 @@ const filhoDoFilhoDoFilho = document.createElement('div');
 filhoDoFilhoDoFilho.id = 'filhoDefinitivo';
 filhoDoFilho.appendChild(filhoDoFilhoDoFilho);
 //A partir desse filho criado, acesse terceiroFilho.
-console.log(document.getElementById('filhoDefinitivo').nextElementSibling);
+//console.log(document.getElementById('filhoDefinitivo').nextElementSibling.nextSibling);
 
