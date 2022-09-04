@@ -1,0 +1,14 @@
+#botaoTeste{
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    background-color: rgb(76, 21, 206);
+    color: rgb(255, 30, 244);
+    box-shadow: 4px 2px 3px rgb(35, 209, 209);
+}
+#botaoTeste:hover{
+    color: rgb(85, 207, 74);
+    
+}
