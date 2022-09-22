@@ -1,94 +1,62 @@
 body{
-    background-color: rgb(112, 33, 33);
+    background-color: #CCCCCC;
 }
-header{
-    background-color: #BBBBBB;
-    height: 320px;
-    border-bottom: solid rgb(51, 45, 45) 2px;
-    border-radius: 2px;
+#foto{
+    width: 100%;
+    border: solid yellowgreen 3px;
 }
-nav{
-    position: absolute;
-    top: 110px;
-    right: 0px;
+h1{
+    
 }
-nav li{
-    display: inline;
-    font-style: italic;
+h2{
+    color: rgb(212, 11, 11);
+    text-align: center;
 }
-nav a{
-    text-transform: uppercase;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 6px;
-    font-weight: bold;
-    font-size: 22px;
+h3{
+    text-align: center;
 }
-nav a:hover{
-    color: rgb(0, 0, 0);
-    border:solid rgb(112, 33, 33);
-    border-radius: 4px;
-    font-size: 25px;
-}
-#caixa{
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
-}
-#produtos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0px;
-}
-#produtos h2{
-    font-size: 30px;
-    font-weight: bold;
-    padding: 5px 0;
-}
-#produtos h2:hover{
-    font-size: 35px;
-}
-#produtos p:hover{
-    font-size: 25px;
-}
-#produtos li{
+ul{
     display: inline-block;
-    text-align: center;
-    background-color: white;
-    width: 30%;
     vertical-align: top;
-    margin: 0 1%;
-    border-radius: 5px 10px 2px 20px;
-    border: solid rgb(24, 24, 24) 3px;
-    box-sizing: border-box;
+    width: 20%;
+    margin-right: 15%;
 }
-#produtos li:hover{
-    border-color: rgb(163, 163, 163);
-    width: 31%;
+#teste{
+    text-align: justify;
+    padding: 20px;
+    color: black;
+    font-size: 30px;
 }
-#produtos li:active{
-    border-color: rgb(0, 0, 0);
-}
-.precoProduto{
-    font-size: 22px;
-    font-weight: bold;
-    padding: 15px;
-    color: rgb(19, 6, 6);
-}
-.descProduto{
-    font-size: 20px;
-    font-style: italic;
-    color: rgb(52, 59, 102);
-}
-footer{
-    padding: 40px;
+#teste1{
     text-align: center;
-    background-color: rgb(80, 34, 34);
-    background-image: url(/pagina/imagens/bg.jpg);
 }
-#copyright{
-    margin: 20px 0px;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
+#conteudo1{
+    border: solid black 3px;
+    background: gray;
+    padding: 10px;
+}
+#conteudo2{
+    border: solid rgb(206, 28, 28) 3px;
+    background: white;
+    padding-top: 40px;
+    margin: 30px;
+}
+em strong{
+    color: rgb(255, 251, 0);
+    background-color: black;
+}
+p strong{
+    color: aqua;
+}
+.teste2{
+    text-align: justify;
+    padding: 6px;
+    color: blueviolet;
+    font-size: 20px;
+}
+.itens{
+    font-style: italic;
+}
+#beneficio{
+    width: 50%;
 }
