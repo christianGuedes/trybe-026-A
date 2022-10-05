@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(107, 10, 42);
+  }
+#title{
+    margin: 10px;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    max-width: 300px;
+    background-color: rgb(253, 237, 237);
+    color: rgb(31, 27, 27);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    text-align: center;
+}
+#color-palette{
+    background-color: rgb(253, 237, 237);
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    max-width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-radius: 5px;
+}
+.color{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(212, 212, 212);
+    margin: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+#black{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    margin: 5px;
+    border: 1px solid black;
+}
+#button-random-color{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 4px;
+    background-color: rgb(148, 148, 148);
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px;
+}
+#button-random-color:hover{
+    color: rgb(255, 0, 255);
+}
+#pixel-board{
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 198px;
+    height: 200px;
+    background-color: rgb(7, 7, 7);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+.pixel{
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    margin: -2px;
+    border: 1px solid black;
+}
+#clear-board{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 4px;
+    background-color: rgb(148, 148, 148);
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px;
+}
+#clear-board:hover{
+    color: rgb(255, 0, 255);
+}
+.selected{
+    border:3px solid rgb(109, 160, 173);
+    border-radius: 5px;
+}
+#resetSite{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 4px;
+    background-color: rgb(148, 148, 148);
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px;
+}
+#resetSite:hover{
+    color: rgb(255, 0, 255);
+}
